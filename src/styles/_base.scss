@@ -1,0 +1,9 @@
+$primary-color: black;
+@import "./header.scss";
+
+body {
+  font-family: "Lato", sans-serif;
+  color: $primary-color;
+  text-align: center;
+  font-size: 700;
+}
