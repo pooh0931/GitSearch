@@ -1,0 +1,19 @@
+.reposData {
+  background: white;
+  width: 620px;
+  height: 100px;
+  border: 1px solid #e9ecef;
+  //   border-radius: 5px;
+  box-shadow: 1px 2px #ced4da;
+  margin-top: none;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-left: 15px;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .repoItem {
+    display: flex;
+    align-items: center;
+  }
+}
